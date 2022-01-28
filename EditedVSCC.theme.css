@@ -1793,13 +1793,10 @@ div[id*="folder-items"] {
         background-position: 130% 0;
     }
 }
-/* Black and Red User ID */
-.subtext-3CDbHg,
-.customStatus-3tC2ig,
-.hovered-d5PMVU,
-.title-eS5yk3 {
-    background-image: linear-gradient(to left,rgb(255, 45, 45), rgb(38, 28, 53), red, rgb(0, 0, 0), rgb(255, 38, 0), rgb(0, 0, 0));
-    animation: gradient-border 4s linear infinite;
+/*Rainbow wave mention*/
+html .mention.wrapper-1ZcZW-.mention.interactive{
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    animation: gradient-border 3s linear infinite;
     background-size: 400% 100%;
     color: transparent !important;
     -webkit-background-clip: text;
